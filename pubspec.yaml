@@ -1,5 +1,5 @@
 name: quoted_string
-description: String quoting/unquoting.
+description: String quoting/unquoting. Provides an extension on String with quote() and unquote() methods.
 version: 0.1.0
 repository: https://github.com/f3ath/dart-quoted-string
 

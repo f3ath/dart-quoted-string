@@ -1,2 +1,14 @@
-# dart-quoted-string
+# quoted_string
 String quoting/unquoting in Dart.
+
+```dart
+import 'package:quoted_string/quoted_string.dart';
+
+void main() {
+  // "Quote (\") and backslash (\\)"
+  print(r'Quote (") and backslash (\)'.quote());
+
+  // Quote (") and backslash (\)
+  print(r'"Quote (\") and backslash (\\)"'.unquote());
+}
+```
